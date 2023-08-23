@@ -4,7 +4,7 @@
   "description": "API de vendas on line em nodeJs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "Daniel Nunes",
   "license": "ISC",
