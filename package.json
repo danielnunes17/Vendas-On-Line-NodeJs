@@ -2,13 +2,21 @@
   "name": "vendas-on-line-nodejs",
   "version": "1.0.0",
   "description": "API de vendas on line em nodeJs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "author": "Daniel Nunes",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.2"
   }
 }
