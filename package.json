@@ -1,0 +1,14 @@
+{
+  "name": "vendas-on-line-nodejs",
+  "version": "1.0.0",
+  "description": "API de vendas on line em nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Nunes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
